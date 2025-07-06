@@ -1,0 +1,47 @@
+.batman-history-1,
+.batman-history-2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 30px;
+  padding: 40px;
+  background-color: black;
+  color: #f5c518;
+}
+
+
+
+.batman-history-1 p,
+.batman-history-2 p {
+  font-family: 'BatmanForever','Roboto', Arial, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 30px;
+  border: 2px solid #f5c518;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.batman-history-1 div,
+.batman-history-2 div {
+  text-align: center;
+}
+
+.batman-history-1 img,
+.batman-history-2 img {
+  height: 400px;
+  width: auto;
+  object-fit: cover;
+  display: inline-block;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.batman-history-1 img:hover,
+.batman-history-2 img:hover{
+  transform: scale(1.1);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+}
+
+.batman-history-2{
+  border-bottom: 4px solid #f5c518;
+}

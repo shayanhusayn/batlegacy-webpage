@@ -1,0 +1,93 @@
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  align-items: center;
+  background-color: #000000;
+  color: #f5c518;
+}
+
+
+
+.follow-me-container{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 60px;
+ 
+}
+
+.batman-image{
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.follow-me-text{
+  background-color: #f5c518;
+  color: black;
+  display: inline-block;
+  font-size: 60px;
+  font-family: 'BatmanForever','Roboto', Arial, sans-serif;
+  text-align: center;
+ 
+}
+
+.social-logo {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  gap: 40px;
+  
+}
+
+.social-logo img {
+  height: 64px;
+  width: 64px;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.social-logo img:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 5px #f5c518);
+}
+
+.credits {
+  font-family: 'BatmanForever','Roboto', Arial, sans-serif;
+  text-align: center;
+  font-size: 18px;
+  color: #ccc;
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 1px solid #f5c518;
+}
+
+.credits a {
+  color: #f5c518;
+  text-decoration: none;
+}
+
+.credits a:hover {
+  text-decoration: underline;
+}
+
+.credits-text{
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .follow-me-text {
+    font-size: 36px;
+    padding: 8px;
+  }
+  .social-logo img {
+    width: 36px;
+    height: 36px;
+  }
+  .credits-text {
+    font-size: 12px;
+    padding: 0 10px;
+  }
+}

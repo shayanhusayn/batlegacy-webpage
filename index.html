@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batman</title>
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/hero-section.css">
+    <link rel="stylesheet" href="styles/about-section.css">
+    <link rel="stylesheet" href="styles/batman-history.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo-container"><a href="#about"><img class="logo" src="icons/batman-logo-2.svg"></a></div>
+      <div class="home-button-container"><a href="#history"><img class="home-button" src="icons/home.svg"></a></div>
+      <div class="upload-button-container"><img class="upload-button" src="icons/upload.svg"></div>
+      <div class="search-container">
+        <input class="search-bar" type="text" placeholder="Search..." >
+      </div>
+      <div class="settings-button-container"><img class="settings-button" src="icons/settings.svg"></div>
+      <div class="notifications-button-container"><img class="notifications-button" src="icons/notifications.svg"></div>
+      <div class="user-button-container">
+        <img class="user-button" src="icons/batman-user.svg">
+      </div>
+    </header>
+
+    <section class="hero-section">
+      <h1>“All men have limits... I ignore mine.”</h1>
+      <p>&ndash; Batman</p>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="model-container">
+         <model-viewer src="models/batman.glb" 
+          alt="A 3D model of Batman"
+          auto-rotate 
+          auto-rotate-speed="1.5"
+          camera-controls 
+          background-color="#000000"
+          shadow-intensity="1"
+          camera-orbit="0deg 75deg 4m"
+          style="width: 100%; max-width: 600px; height: 500px; margin: auto; display: block;"></model-viewer>
+        </model-viewer> 
+        <h2 class="batman-about-section">BATMAN</h2>
+        <p class="character-profile">CHARACTER PROFILE</p>
+        <p class="model-credits">
+          Model by <a href="https://sketchfab.com/TapmodStudio" target="_blank" rel="noopener noreferrer">Tapmod Studio</a> is licensed under 
+          <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">Creative Commons Attribution</a>.
+        </p>
+      </div>
+      <div class="about-text-container">
+        <p class="about-text">
+          In the heart of Gotham&rsquo;s shadows, a legend was born&mdash;not of gods or aliens, but of a man <span>forged by tragedy.</span>
+          After witnessing the murder of his parents in a cold alley, Bruce Wayne didn&rsquo;t crumble&mdash;<span>he transformed.</span> 
+          Fueled by pain, trained to perfection, and armed with an unbreakable will, he became something more than a man&hellip; <span>he became Batman.</span> 
+          With no superpowers to rely on, Batman uses his mind as his greatest weapon. He&rsquo;s a master detective, martial artist, strategist, and symbol of fear to those who prey on the innocent. The cowl is more than a mask&mdash;it&rsquo;s a warning.  
+          From the crime-ridden streets of Gotham to the halls of the Justice League, the Caped Crusader stands alone&mdash;relentless, silent, unstoppable.  
+          His enemies are legendary: the maniacal Joker, the seductive Catwoman, the monstrous Bane, and dozens more. But none have ever truly broken the Bat.  
+          Over 80 years of stories, Batman has evolved from vigilante to global icon. He&rsquo;s not just a superhero. He&rsquo;s an idea&mdash;that courage, conviction, and a refusal to surrender can <span>change the world</span>.
+        </p>
+      </div>
+    </section>
+
+    <section id="history" class="batman-history-1">
+      <div class="golden-age-container">
+        <p>THE GOLDEN AGE (1939-1956)</p>
+        <a href="https://www.dcuniverseinfinite.com/" target="_blank"><img src="images/Batman-Golden-Age-1.png"></a>
+      </div>
+      <div class="silver-age-container">
+        <p>THE SILVER AGE (1956-1970)</p>
+        <a href="https://www.dcuniverseinfinite.com/" target="_blank"><img src="images/Batman-Silver-Age-1.png"></a>
+      </div>
+      <div class="bronze-age-container">
+        <p>THE BRONZE AGE (1970-1986)</p>
+        <a href="https://www.dcuniverseinfinite.com/" target="_blank"><img src="images/Batman-Bronze-Age-1.png"></a>
+      </div>
+      <div class="year-one-container">
+        <p>"YEAR ONE" (1987)</p>
+        <a href="https://www.dcuniverseinfinite.com/" target="_blank"><img src="images/Batman-Year-One.png"></a>
+      </div>
+    </section>
+    
+    <section class="batman-history-2">
+      <div class="modern-age-container">
+        <p>THE MODERN AGE (1987-2005)</p>
+        <a href="https://www.dcuniverseinfinite.com/" target="_blank"><img src="images/Batman-Modern-Age-2.png"></a>
+      </div>
+      <div class="batman-and-son-container">
+        <p>BATMAN AND SON (2006)</p>
+       <a href="https://www.dcuniverseinfinite.com/" target="_blank"><img src="images/Batman-Batman-and-Son.png"></a>
+      </div>
+      <div class="batman-new-52-container">
+        <p>THE NEW 52 (2011-2016)</p>
+        <a href="https://www.dcuniverseinfinite.com/" target="_blank"><img src="images/Batman-New-52.png"></a>
+      </div>
+      <div class="batman-rebirth-container">
+        <p>REBIRTH (2016-PRESENT)</p>
+        <a href="https://www.dcuniverseinfinite.com/" target="_blank"><img src="images/Batman-Rebirth.png"></a>
+      </div>
+    </section>
+
+    <footer class="footer-container">
+      <div class="batman-image-container">
+        <img class="batman-image" src="images/batman_1.png">
+      </div>
+      <div class="follow-me-container">
+        <div class="follow-me-text">Follow me on socials</div>
+        <div class="social-logo">
+          <a href="https://github.com/shayanhusayn" target="_blank"><img src="icons/github.svg"></a>
+          <img src="icons/discord.svg">
+          <img src="icons/facebook.svg">
+          <img src="icons/x.svg">
+          <img src="icons/instagram.svg">
+        </div>
+        <div class="credits">
+          <p class="credits-text">This is a non-commercial fan project made solely for learning purposes. Batman and related media are property of <a href="https://www.dc.com/" target="_blank">DC</a></p>
+          <p>Images from <a class="images-credit" href="https://www.dc.com/characters/batman" target="_blank">DC</a></p>
+          <p>Icons by <a class="icons-credit" href="https://icons8.com/icons/set/logos--style-badges" target="_blank">Icons8</a></p>
+          <p>Font From <a class="fonts-credit" href="https://www.dafont.com/batman-forever.font" target="_blank">dafont.com</a></p> 
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

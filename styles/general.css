@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'BatmanForever';
+  src: url('BatmanForever.ttf') format('truetype');
+}
+
+body{
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  font-family: 'BatmanForever','Roboto', Arial, sans-serif;
+
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 120px;
+  margin: 0;
+}
+

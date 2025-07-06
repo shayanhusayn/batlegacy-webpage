@@ -1,0 +1,57 @@
+.about-section{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  align-items: center;
+  padding: 40px;
+  background-color: #000000;
+  color: white;
+}
+
+
+  
+
+.model-container h2 {
+  margin-top: 20px;
+  font-size: 28px;
+  font-family: 'BatmanForever','Roboto', Arial, sans-serif;
+ 
+}
+
+.character-profile {
+  font-size: 16px;
+  font-family: 'BatmanForever','Roboto', Arial, sans-serif;
+  letter-spacing: 1px;
+  color: #f5c518;
+  margin: 0;
+}
+
+.model-container{
+  font-size: 14px; 
+  color: #ffffff; 
+  text-align: center; 
+  margin-top: 10px;
+  font-family: 'BatmanForever','Roboto', Arial, sans-serif;
+}
+
+.about-text {
+  line-height: 1.7;
+  font-size: 18px;
+  font-family: 'BatmanForever','Roboto', Arial, sans-serif;
+  color: #ffffff;
+  text-align: justify;
+}
+
+
+
+.about-text span{
+  color: #f5c518;
+}
+
+.about-text-container{
+  text-align: center; 
+  margin-top: 10px;
+}
+
+
+

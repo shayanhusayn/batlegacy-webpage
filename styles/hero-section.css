@@ -1,0 +1,19 @@
+.hero-section {
+  background: linear-gradient(to right,#000000 ,#f5c518 , #7a5c17,#000000 );
+  color: #000000; 
+  text-align: center;
+  padding: 100px 20px;
+  font-family: 'BatmanForever','Roboto', Arial, sans-serif;
+}
+
+.hero-section h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  padding-top: 60px;
+}
+
+.hero-section p {
+  font-size: 30px;
+  color: #000000; /* faded white for contrast */
+}
+
